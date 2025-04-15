@@ -1,0 +1,996 @@
+Title,Authors,Published Date,Abstract,Link
+"Privacy-Preserving Distributed Link Predictions Among Peers in Online
+  Classrooms Using Federated Learning","Anurata Prabha Hridi, Muntasir Hoq, Zhikai Gao, Collin Lynch, Rajeev Sahay, Seyyedali Hosseinalipour, Bita Akram",2025-04-14T17:43:11Z,"  Social interactions among classroom peers, represented as social learning
+networks (SLNs), play a crucial role in enhancing learning outcomes. While SLN
+analysis has recently garnered attention, most existing approaches rely on
+centralized training, where data is aggregated and processed on a local/cloud
+server with direct access to raw data. However, in real-world educational
+settings, such direct access across multiple classrooms is often restricted due
+to privacy concerns. Furthermore, training models on isolated classroom data
+prevents the identification of common interaction patterns that exist across
+multiple classrooms, thereby limiting model performance. To address these
+challenges, we propose one of the first frameworks that integrates Federated
+Learning (FL), a distributed and collaborative machine learning (ML) paradigm,
+with SLNs derived from students' interactions in multiple classrooms' online
+forums to predict future link formations (i.e., interactions) among students.
+By leveraging FL, our approach enables collaborative model training across
+multiple classrooms while preserving data privacy, as it eliminates the need
+for raw data centralization. Recognizing that each classroom may exhibit unique
+student interaction dynamics, we further employ model personalization
+techniques to adapt the FL model to individual classroom characteristics. Our
+results demonstrate the effectiveness of our approach in capturing both shared
+and classroom-specific representations of student interactions in SLNs.
+Additionally, we utilize explainable AI (XAI) techniques to interpret model
+predictions, identifying key factors that influence link formation across
+different classrooms. These insights unveil the drivers of social learning
+interactions within a privacy-preserving, collaborative, and distributed ML
+framework -- an aspect that has not been explored before.
+",http://arxiv.org/abs/2504.10456v1
+"RealWebAssist: A Benchmark for Long-Horizon Web Assistance with
+  Real-World Users","Suyu Ye, Haojun Shi, Darren Shih, Hyokun Yun, Tanya Roosta, Tianmin Shu",2025-04-14T17:36:46Z,"  To achieve successful assistance with long-horizon web-based tasks, AI agents
+must be able to sequentially follow real-world user instructions over a long
+period. Unlike existing web-based agent benchmarks, sequential instruction
+following in the real world poses significant challenges beyond performing a
+single, clearly defined task. For instance, real-world human instructions can
+be ambiguous, require different levels of AI assistance, and may evolve over
+time, reflecting changes in the user's mental state. To address this gap, we
+introduce RealWebAssist, a novel benchmark designed to evaluate sequential
+instruction-following in realistic scenarios involving long-horizon
+interactions with the web, visual GUI grounding, and understanding ambiguous
+real-world user instructions. RealWebAssist includes a dataset of sequential
+instructions collected from real-world human users. Each user instructs a
+web-based assistant to perform a series of tasks on multiple websites. A
+successful agent must reason about the true intent behind each instruction,
+keep track of the mental state of the user, understand user-specific routines,
+and ground the intended tasks to actions on the correct GUI elements. Our
+experimental results show that state-of-the-art models struggle to understand
+and ground user instructions, posing critical challenges in following
+real-world user instructions for long-horizon web assistance.
+",http://arxiv.org/abs/2504.10445v1
+HUMOTO: A 4D Dataset of Mocap Human Object Interactions,"Jiaxin Lu, Chun-Hao Paul Huang, Uttaran Bhattacharya, Qixing Huang, Yi Zhou",2025-04-14T16:59:29Z,"  We present Human Motions with Objects (HUMOTO), a high-fidelity dataset of
+human-object interactions for motion generation, computer vision, and robotics
+applications. Featuring 736 sequences (7,875 seconds at 30 fps), HUMOTO
+captures interactions with 63 precisely modeled objects and 72 articulated
+parts. Our innovations include a scene-driven LLM scripting pipeline creating
+complete, purposeful tasks with natural progression, and a mocap-and-camera
+recording setup to effectively handle occlusions. Spanning diverse activities
+from cooking to outdoor picnics, HUMOTO preserves both physical accuracy and
+logical task flow. Professional artists rigorously clean and verify each
+sequence, minimizing foot sliding and object penetrations. We also provide
+benchmarks compared to other datasets. HUMOTO's comprehensive full-body motion
+and simultaneous multi-object interactions address key data-capturing
+challenges and provide opportunities to advance realistic human-object
+interaction modeling across research domains with practical applications in
+animation, robotics, and embodied AI systems. Project:
+https://jiaxin-lu.github.io/humoto/ .
+",http://arxiv.org/abs/2504.10414v1
+"AI-Driven Code Refactoring: Using Graph Neural Networks to Enhance
+  Software Maintainability",Gopichand Bandarupalli,2025-04-14T16:58:54Z,"  This study explores Graph Neural Networks (GNNs) as a transformative tool for
+code refactoring, using abstract syntax trees (ASTs) to boost software
+maintainability. It analyzes a dataset of 2 million snippets from CodeSearchNet
+and a custom 75000-file GitHub Python corpus, comparing GNNs against rule-based
+SonarQube and decision trees. Metrics include cyclomatic complexity (target
+below 10), coupling (target below 5), and refactoring precision. GNNs achieve
+92% accuracy, reducing complexity by 35% and coupling by 33%, outperforming
+SonarQube (78%, 16%) and decision trees (85%, 25%). Preprocessing fixed 60% of
+syntax errors. Bar graphs, tables, and AST visuals clarify results. This offers
+a scalable AI-driven path to cleaner codebases, which is crucial for software
+engineering.
+",http://arxiv.org/abs/2504.10412v1
+"FPGA-Optimized Hardware Accelerator for Fast Fourier Transform and
+  Singular Value Decomposition in AI","Hong Ding, Chia Chao Kang, SuYang Xi, Zehang Liu, Xuan Zhang, Yi Ding",2025-04-14T16:58:46Z,"  This research introduces an FPGA-based hardware accelerator to optimize the
+Singular Value Decomposition (SVD) and Fast Fourier transform (FFT) operations
+in AI models. The proposed design aims to improve processing speed and reduce
+computational latency. Through experiments, we validate the performance
+benefits of the hardware accelerator and show how well it handles FFT and SVD
+operations. With its strong security and durability, the accelerator design
+achieves significant speedups over software implementations, thanks to its
+modules for data flow control, watermark embedding, FFT, and SVD.
+",http://arxiv.org/abs/2504.10411v1
+"Performance of Large Language Models in Supporting Medical Diagnosis and
+  Treatment","Diogo Sousa, Guilherme Barbosa, Catarina Rocha, Dulce Oliveira",2025-04-14T16:53:59Z,"  The integration of Large Language Models (LLMs) into healthcare holds
+significant potential to enhance diagnostic accuracy and support medical
+treatment planning. These AI-driven systems can analyze vast datasets,
+assisting clinicians in identifying diseases, recommending treatments, and
+predicting patient outcomes. This study evaluates the performance of a range of
+contemporary LLMs, including both open-source and closed-source models, on the
+2024 Portuguese National Exam for medical specialty access (PNA), a
+standardized medical knowledge assessment. Our results highlight considerable
+variation in accuracy and cost-effectiveness, with several models demonstrating
+performance exceeding human benchmarks for medical students on this specific
+task. We identify leading models based on a combined score of accuracy and
+cost, discuss the implications of reasoning methodologies like
+Chain-of-Thought, and underscore the potential for LLMs to function as valuable
+complementary tools aiding medical professionals in complex clinical
+decision-making.
+",http://arxiv.org/abs/2504.10405v1
+"Satellite Federated Fine-Tuning for Foundation Models in Space Computing
+  Power Networks","Yan zhu, Jingyang zhu, Ting Wang, Yuanming Shi, Chunxiao Jiang, Khaled Ben Letaief",2025-04-14T16:52:34Z,"  Advancements in artificial intelligence (AI) and low-earth orbit (LEO)
+satellites have promoted the application of large remote sensing foundation
+models for various downstream tasks. However, direct downloading of these
+models for fine-tuning on the ground is impeded by privacy concerns and limited
+bandwidth. Satellite federated learning (FL) offers a solution by enabling
+model fine-tuning directly on-board satellites and aggregating model updates
+without data downloading. Nevertheless, for large foundation models, the
+computational capacity of satellites is insufficient to support effective
+on-board fine-tuning in traditional satellite FL frameworks. To address these
+challenges, we propose a satellite-ground collaborative federated fine-tuning
+framework. The key of the framework lies in how to reasonably decompose and
+allocate model components to alleviate insufficient on-board computation
+capabilities. During fine-tuning, satellites exchange intermediate results with
+ground stations or other satellites for forward propagation and back
+propagation, which brings communication challenges due to the special
+communication topology of space transmission networks, such as intermittent
+satellite-ground communication, short duration of satellite-ground
+communication windows, and unstable inter-orbit inter-satellite links (ISLs).
+To reduce transmission delays, we further introduce tailored communication
+strategies that integrate both communication and computing resources.
+Specifically, we propose a parallel intra-orbit communication strategy, a
+topology-aware satellite-ground communication strategy, and a
+latency-minimalization inter-orbit communication strategy to reduce space
+communication costs. Simulation results demonstrate significant reductions in
+training time with improvements of approximately 33%.
+",http://arxiv.org/abs/2504.10403v1
+Ctrl-Z: Controlling AI Agents via Resampling,"Aryan Bhatt, Cody Rushing, Adam Kaufman, Tyler Tracy, Vasil Georgiev, David Matolcsi, Akbir Khan, Buck Shlegeris",2025-04-14T16:22:11Z,"  Control evaluations measure whether monitoring and security protocols for AI
+systems prevent intentionally subversive AI models from causing harm. Our work
+presents the first control evaluation performed in an agent environment. We
+construct BashBench, a dataset of 257 challenging multi-step system
+administration tasks, and evaluate whether various safety measures can prevent
+an adversarially constructed AI agent from covertly downloading and executing
+malicious code in this environment. This multi-step setting introduces new
+attack and defense dynamics, which we investigate in order to design novel
+control protocols that prevent safety failures without hindering the ability of
+non-malicious agents to perform useful work. We introduce a class of control
+protocols called resample protocols that dynamically take additional samples of
+certain actions. We find these protocols significantly improve on existing
+techniques by selectively blocking the AI agent from executing suspicious code
+and incriminating the agent by generating additional examples of dangerous
+behavior. We measure the tradeoff between attack prevention and usefulness; our
+best protocol combines resampling with analysis of previous steps, reducing the
+success rate of attacks from 58% to 7% at a 5% cost to the performance of a
+non-malicious agent.
+",http://arxiv.org/abs/2504.10374v1
+"DUE: A Deep Learning Framework and Library for Modeling Unknown
+  Equations","Junfeng Chen, Kailiang Wu, Dongbin Xiu",2025-04-14T16:20:55Z,"  Equations, particularly differential equations, are fundamental for
+understanding natural phenomena and predicting complex dynamics across various
+scientific and engineering disciplines. However, the governing equations for
+many complex systems remain unknown due to intricate underlying mechanisms.
+Recent advancements in machine learning and data science offer a new paradigm
+for modeling unknown equations from measurement or simulation data. This
+paradigm shift, known as data-driven discovery or modeling, stands at the
+forefront of AI for science, with significant progress made in recent years. In
+this paper, we introduce a systematic framework for data-driven modeling of
+unknown equations using deep learning. This versatile framework is capable of
+learning unknown ODEs, PDEs, DAEs, IDEs, SDEs, reduced or partially observed
+systems, and non-autonomous differential equations. Based on this framework, we
+have developed Deep Unknown Equations (DUE), an open-source software package
+designed to facilitate the data-driven modeling of unknown equations using
+modern deep learning techniques. DUE serves as an educational tool for
+classroom instruction, enabling students and newcomers to gain hands-on
+experience with differential equations, data-driven modeling, and contemporary
+deep learning approaches such as FNN, ResNet, generalized ResNet, operator
+semigroup networks (OSG-Net), and Transformers. Additionally, DUE is a
+versatile and accessible toolkit for researchers across various scientific and
+engineering fields. It is applicable not only for learning unknown equations
+from data but also for surrogate modeling of known, yet complex, equations that
+are costly to solve using traditional numerical methods. We provide detailed
+descriptions of DUE and demonstrate its capabilities through diverse examples,
+which serve as templates that can be easily adapted for other applications.
+",http://arxiv.org/abs/2504.10373v1
+"FingER: Content Aware Fine-grained Evaluation with Reasoning for
+  AI-Generated Videos","Rui Chen, Lei Sun, Jing Tang, Geng Li, Xiangxiang Chu",2025-04-14T16:07:16Z,"  Recent advances in video generation have posed great challenges in the
+assessment of AI-generated content, particularly with the emergence of
+increasingly sophisticated models. The various inconsistencies and defects
+observed in such videos are inherently complex, making overall scoring
+notoriously difficult. In this paper, we emphasize the critical importance of
+integrating fine-grained reasoning into video evaluation, and we propose
+$\textbf{F}$ing$\textbf{ER}$, a novel entity-level reasoning evaluation
+framework that first automatically generates $\textbf{F}$ine-grained
+$\textbf{E}$ntity-level questions, and then answers those questions by a
+$\textbf{R}$easoning model with scores, which can be subsequently weighted
+summed to an overall score for different applications. Specifically, we
+leverage LLMs to derive entity-level questions across five distinct
+perspectives, which (i) often focus on some specific entities of the content,
+thereby making answering or scoring much easier by MLLMs, and (ii) are more
+interpretable. Then we construct a FingER dataset, consisting of approximately
+3.3k videos and corresponding 60k fine-grained QA annotations, each with
+detailed reasons. Based on that, we further investigate various training
+protocols to best incentivize the reasoning capability of MLLMs for correct
+answer prediction. Extensive experiments demonstrate that a reasoning model
+trained using Group Relative Policy Optimization (GRPO) with a cold-start
+strategy achieves the best performance. Notably, our model surpasses existing
+methods by a relative margin of $11.8\%$ on GenAI-Bench and $5.5\%$ on
+MonetBench with only 3.3k training videos, which is at most one-tenth of the
+training samples utilized by other methods. Our code and dataset will be
+released soon.
+",http://arxiv.org/abs/2504.10358v1
+"AraOS: Analyzing the Impact of Virtual Memory Management on Vector Unit
+  Performance","Matteo Perotti, Vincenzo Maisto, Moritz Imfeld, Nils Wistoff, Alessandro Cilardo, Luca Benini",2025-04-14T15:53:11Z,"  Vector processor architectures offer an efficient solution for accelerating
+data-parallel workloads (e.g., ML, AI), reducing instruction count, and
+enhancing processing efficiency. This is evidenced by the increasing adoption
+of vector ISAs, such as Arm's SVE/SVE2 and RISC-V's RVV, not only in
+high-performance computers but also in embedded systems. The open-source nature
+of RVV has particularly encouraged the development of numerous vector processor
+designs across industry and academia. However, despite the growing number of
+open-source RVV processors, there is a lack of published data on their
+performance in a complex application environment hosted by a full-fledged
+operating system (Linux). In this work, we add OS support to the open-source
+bare-metal Ara2 vector processor (AraOS) by sharing the MMU of CVA6, the scalar
+core used for instruction dispatch to Ara2, and integrate AraOS into the
+open-source Cheshire SoC platform. We evaluate the performance overhead of
+virtual-to-physical address translation by benchmarking matrix multiplication
+kernels across several problem sizes and translation lookaside buffer (TLB)
+configurations in CVA6's shared MMU, providing insights into vector performance
+in a full-system environment with virtual memory. With at least 16 TLB entries,
+the virtual memory overhead remains below 3.5%. Finally, we benchmark a 2-lane
+AraOS instance with the open-source RiVEC benchmark suite for RVV
+architectures, with peak average speedups of 3.2x against scalar-only
+execution.
+",http://arxiv.org/abs/2504.10345v1
+"Domain-Adversarial Neural Network and Explainable AI for Reducing
+  Tissue-of-Origin Signal in Pan-cancer Mortality Classification","Cristian Padron-Manrique, Juan José Oropeza Valdez, Osbaldo Resendis-Antonio",2025-04-14T15:51:39Z,"  Tissue-of-origin signals dominate pan-cancer gene expression, often obscuring
+molecular features linked to patient survival. This hampers the discovery of
+generalizable biomarkers, as models tend to overfit tissue-specific patterns
+rather than capture survival-relevant signals. To address this, we propose a
+Domain-Adversarial Neural Network (DANN) trained on TCGA RNA-seq data to learn
+representations less biased by tissue and more focused on survival. Identifying
+tissue-independent genetic profiles is key to revealing core cancer programs.
+We assess the DANN using: (1) Standard SHAP, based on the original input space
+and DANN's mortality classifier; (2) A layer-aware strategy applied to hidden
+activations, including an unsupervised manifold from raw activations and a
+supervised manifold from mortality-specific SHAP values. Standard SHAP remains
+confounded by tissue signals due to biases inherent in its computation. The raw
+activation manifold was dominated by high-magnitude activations, which masked
+subtle tissue and mortality-related signals. In contrast, the layer-aware SHAP
+manifold offers improved low-dimensional representations of both tissue and
+mortality signals, independent of activation strength, enabling subpopulation
+stratification and pan-cancer identification of survival-associated genes.
+",http://arxiv.org/abs/2504.10343v1
+Heimdall: test-time scaling on the generative verification,"Wenlei Shi, Xing Jin",2025-04-14T15:46:33Z,"  An AI system can create and maintain knowledge only to the extent that it can
+verify that knowledge itself. Recent work on long Chain-of-Thought reasoning
+has demonstrated great potential of LLMs on solving competitive problems, but
+their verification ability remains to be weak and not sufficiently
+investigated. In this paper, we propose Heimdall, the long CoT verification LLM
+that can accurately judge the correctness of solutions. With pure reinforcement
+learning, we boost the verification accuracy from 62.5% to 94.5% on competitive
+math problems. By scaling with repeated sampling, the accuracy further
+increases to 97.5%. Through human evaluation, Heimdall demonstrates impressive
+generalization capabilities, successfully detecting most issues in challenging
+math proofs, the type of which is not included during training. Furthermore, we
+propose Pessimistic Verification to extend the functionality of Heimdall to
+scaling up the problem solving. It calls Heimdall to judge the solutions from a
+solver model and based on the pessimistic principle, selects the most likely
+correct solution with the least uncertainty. Taking
+DeepSeek-R1-Distill-Qwen-32B as the solver model, Pessimistic Verification
+improves the solution accuracy on AIME2025 from 54.2% to 70.0% with 16x compute
+budget and to 83.3% with more compute budget. With the stronger solver Gemini
+2.5 Pro, the score reaches 93.0%. Finally, we prototype an automatic knowledge
+discovery system, a ternary system where one poses questions, another provides
+solutions, and the third verifies the solutions. Using the data synthesis work
+NuminaMath for the first two components, Heimdall effectively identifies
+problematic records within the dataset and reveals that nearly half of the data
+is flawed, which interestingly aligns with the recent ablation studies from
+NuminaMath.
+",http://arxiv.org/abs/2504.10337v1
+InstructEngine: Instruction-driven Text-to-Image Alignment,"Xingyu Lu, Yuhang Hu, YiFan Zhang, Kaiyu Jiang, Changyi Liu, Tianke Zhang, Jinpeng Wang, Bin Wen, Chun Yuan, Fan Yang, Tingting Gao, Di Zhang",2025-04-14T15:36:28Z,"  Reinforcement Learning from Human/AI Feedback (RLHF/RLAIF) has been
+extensively utilized for preference alignment of text-to-image models. Existing
+methods face certain limitations in terms of both data and algorithm. For
+training data, most approaches rely on manual annotated preference data, either
+by directly fine-tuning the generators or by training reward models to provide
+training signals. However, the high annotation cost makes them difficult to
+scale up, the reward model consumes extra computation and cannot guarantee
+accuracy. From an algorithmic perspective, most methods neglect the value of
+text and only take the image feedback as a comparative signal, which is
+inefficient and sparse. To alleviate these drawbacks, we propose the
+InstructEngine framework. Regarding annotation cost, we first construct a
+taxonomy for text-to-image generation, then develop an automated data
+construction pipeline based on it. Leveraging advanced large multimodal models
+and human-defined rules, we generate 25K text-image preference pairs. Finally,
+we introduce cross-validation alignment method, which refines data efficiency
+by organizing semantically analogous samples into mutually comparable pairs.
+Evaluations on DrawBench demonstrate that InstructEngine improves SD v1.5 and
+SDXL's performance by 10.53% and 5.30%, outperforming state-of-the-art
+baselines, with ablation study confirming the benefits of InstructEngine's all
+components. A win rate of over 50% in human reviews also proves that
+InstructEngine better aligns with human preferences.
+",http://arxiv.org/abs/2504.10329v1
+Continuous fields of interval algebras,Laurent Cantier,2025-04-14T15:36:03Z,"  This paper investigates and classifies a specific class of one-parameter
+continuous fields of C*-algebras, which can be seen as generalized AI-algebras.
+Building on the classification of *-homomorphisms between interval algebras by
+the Cuntz semigroup, along with a selection theorem and a gluing procedure, we
+employ a 'local-to-global' strategy to achieve our classification result.
+",http://arxiv.org/abs/2504.10328v1
+"AlayaDB: The Data Foundation for Efficient and Effective Long-context
+  LLM Inference","Yangshen Deng, Zhengxin You, Long Xiang, Qilong Li, Peiqi Yuan, Zhaoyang Hong, Yitao Zheng, Wanting Li, Runzhong Li, Haotian Liu, Kyriakos Mouratidis, Man Lung Yiu, Huan Li, Qiaomu Shen, Rui Mao, Bo Tang",2025-04-14T15:34:26Z,"  AlayaDB is a cutting-edge vector database system natively architected for
+efficient and effective long-context inference for Large Language Models (LLMs)
+at AlayaDB AI. Specifically, it decouples the KV cache and attention
+computation from the LLM inference systems, and encapsulates them into a novel
+vector database system. For the Model as a Service providers (MaaS), AlayaDB
+consumes fewer hardware resources and offers higher generation quality for
+various workloads with different kinds of Service Level Objectives (SLOs), when
+comparing with the existing alternative solutions (e.g., KV cache
+disaggregation, retrieval-based sparse attention). The crux of AlayaDB is that
+it abstracts the attention computation and cache management for LLM inference
+into a query processing procedure, and optimizes the performance via a native
+query optimizer. In this work, we demonstrate the effectiveness of AlayaDB via
+(i) three use cases from our industry partners, and (ii) extensive experimental
+results on LLM inference benchmarks.
+",http://arxiv.org/abs/2504.10326v1
+Characterizing LLM-driven Social Network: The Chirper.ai Case,"Yiming Zhu, Yupeng He, Ehsan-Ul Haq, Gareth Tyson, Pan Hui",2025-04-14T14:53:31Z,"  Large language models (LLMs) demonstrate the ability to simulate human
+decision-making processes, enabling their use as agents in modeling
+sophisticated social networks, both offline and online. Recent research has
+explored collective behavioral patterns and structural characteristics of LLM
+agents within simulated networks. However, empirical comparisons between
+LLM-driven and human-driven online social networks remain scarce, limiting our
+understanding of how LLM agents differ from human users. This paper presents a
+large-scale analysis of Chirper.ai, an X/Twitter-like social network entirely
+populated by LLM agents, comprising over 65,000 agents and 7.7 million
+AI-generated posts. For comparison, we collect a parallel dataset from
+Mastodon, a human-driven decentralized social network, with over 117,000 users
+and 16 million posts. We examine key differences between LLM agents and humans
+in posting behaviors, abusive content, and social network structures. Our
+findings provide critical insights into the evolving landscape of online social
+network analysis in the AI era, offering a comprehensive profile of LLM agents
+in social simulations.
+",http://arxiv.org/abs/2504.10286v1
+RealHarm: A Collection of Real-World Language Model Application Failures,"Pierre Le Jeune, Jiaen Liu, Luca Rossi, Matteo Dora",2025-04-14T14:44:41Z,"  Language model deployments in consumer-facing applications introduce numerous
+risks. While existing research on harms and hazards of such applications
+follows top-down approaches derived from regulatory frameworks and theoretical
+analyses, empirical evidence of real-world failure modes remains underexplored.
+In this work, we introduce RealHarm, a dataset of annotated problematic
+interactions with AI agents built from a systematic review of publicly reported
+incidents. Analyzing harms, causes, and hazards specifically from the
+deployer's perspective, we find that reputational damage constitutes the
+predominant organizational harm, while misinformation emerges as the most
+common hazard category. We empirically evaluate state-of-the-art guardrails and
+content moderation systems to probe whether such systems would have prevented
+the incidents, revealing a significant gap in the protection of AI
+applications.
+",http://arxiv.org/abs/2504.10277v1
+"Trade-offs in Privacy-Preserving Eye Tracking through Iris Obfuscation:
+  A Benchmarking Study","Mengdi Wang, Efe Bozkir, Enkelejda Kasneci",2025-04-14T14:29:38Z,"  Recent developments in hardware, computer graphics, and AI may soon enable
+AR/VR head-mounted displays (HMDs) to become everyday devices like smartphones
+and tablets. Eye trackers within HMDs provide a special opportunity for such
+setups as it is possible to facilitate gaze-based research and interaction.
+However, estimating users' gaze information often requires raw eye images and
+videos that contain iris textures, which are considered a gold standard
+biometric for user authentication, and this raises privacy concerns. Previous
+research in the eye-tracking community focused on obfuscating iris textures
+while keeping utility tasks such as gaze estimation accurate. Despite these
+attempts, there is no comprehensive benchmark that evaluates state-of-the-art
+approaches. Considering all, in this paper, we benchmark blurring, noising,
+downsampling, rubber sheet model, and iris style transfer to obfuscate user
+identity, and compare their impact on image quality, privacy, utility, and risk
+of imposter attack on two datasets. We use eye segmentation and gaze estimation
+as utility tasks, and reduction in iris recognition accuracy as a measure of
+privacy protection, and false acceptance rate to estimate risk of attack. Our
+experiments show that canonical image processing methods like blurring and
+noising cause a marginal impact on deep learning-based tasks. While
+downsampling, rubber sheet model, and iris style transfer are effective in
+hiding user identifiers, iris style transfer, with higher computation cost,
+outperforms others in both utility tasks, and is more resilient against spoof
+attacks. Our analyses indicate that there is no universal optimal approach to
+balance privacy, utility, and computation burden. Therefore, we recommend
+practitioners consider the strengths and weaknesses of each approach, and
+possible combinations of those to reach an optimal privacy-utility trade-off.
+",http://arxiv.org/abs/2504.10267v1
+"Struggle First, Prompt Later: How Task Complexity Shapes Learning with
+  GenAI-Assisted Pretesting","Mahir Akgun, Sacip Toker",2025-04-14T14:12:28Z,"  This study examines the role of AI-assisted pretesting in enhancing learning
+outcomes, particularly when integrated with generative AI tools like ChatGPT.
+Pretesting, a learning strategy in which students attempt to answer questions
+or solve problems before receiving instruction, has been shown to improve
+retention by activating prior knowledge. The adaptability and interactivity of
+AI-assisted pretesting introduce new opportunities for optimizing learning in
+digital environments. Across three experimental studies, we explored how
+pretesting strategies, task characteristics, and student motivation influence
+learning. Findings suggest that AI-assisted pretesting enhances learning
+outcomes, particularly for tasks requiring higher-order thinking. While
+adaptive AI-driven pretesting increased engagement, its benefits were most
+pronounced in complex, exploratory tasks rather than straightforward
+computational problems. These results highlight the importance of aligning
+pretesting strategies with task demands, demonstrating that AI can optimize
+learning when applied to tasks requiring deeper cognitive engagement. This
+research provides insights into how AI-assisted pretesting can be effectively
+integrated with generative AI tools to enhance both cognitive and motivational
+outcomes in learning environments.
+",http://arxiv.org/abs/2504.10249v1
+"The Future of MLLM Prompting is Adaptive: A Comprehensive Experimental
+  Evaluation of Prompt Engineering Methods for Robust Multimodal Performance","Anwesha Mohanty, Venkatesh Balavadhani Parthasarathy, Arsalan Shahid",2025-04-14T12:31:39Z,"  Multimodal Large Language Models (MLLMs) are set to transform how machines
+process and generate human-like responses by integrating diverse modalities
+such as text, images, and code. Yet, effectively harnessing their capabilities
+hinges on optimal prompt engineering. We present a comprehensive experimental
+evaluation of seven prompt engineering methods applied to 13 open-source MLLMs
+over 24 tasks spanning Reasoning and Compositionality, Multimodal Understanding
+and Alignment, Complex Code Generation and Execution, and Knowledge Retrieval
+and Integration. Our approach stratifies models by parameter count into Small
+(<4B), Medium (4B-10B), and Large (>10B) categories and compares prompting
+techniques including Zero-Shot, One-Shot, Few-Shot, Chain-of-Thought,
+Analogical, Generated Knowledge, and Tree-of-Thought. While Large MLLMs excel
+in structured tasks such as code generation, achieving accuracies up to 96.88%
+under Few-Shot prompting, all models struggle with complex reasoning and
+abstract understanding, often yielding accuracies below 60% and high
+hallucination rates. Structured reasoning prompts frequently increased
+hallucination up to 75% in small models and led to longer response times (over
+20 seconds in Large MLLMs), while simpler prompting methods provided more
+concise and efficient outputs. No single prompting method uniformly optimises
+all task types. Instead, adaptive strategies combining example-based guidance
+with selective structured reasoning are essential to enhance robustness,
+efficiency, and factual accuracy. Our findings offer practical recommendations
+for prompt engineering and support more reliable deployment of MLLMs across
+applications including AI-assisted coding, knowledge retrieval, and multimodal
+content understanding.
+",http://arxiv.org/abs/2504.10179v1
+Challenges in interpretability of additive models,"Xinyu Zhang, Julien Martinelli, ST John",2025-04-14T12:24:17Z,"  We review generalized additive models as a type of ``transparent'' model that
+has recently seen renewed interest in the deep learning community as neural
+additive models. We highlight multiple types of nonidentifiability in this
+model class and discuss challenges in interpretability, arguing for restraint
+when claiming ``interpretability'' or ``suitability for safety-critical
+applications'' of such models.
+",http://arxiv.org/abs/2504.10169v1
+A Survey of Personalization: From RAG to Agent,"Xiaopeng Li, Pengyue Jia, Derong Xu, Yi Wen, Yingyi Zhang, Wenlin Zhang, Wanyu Wang, Yichao Wang, Zhaocheng Du, Xiangyang Li, Yong Liu, Huifeng Guo, Ruiming Tang, Xiangyu Zhao",2025-04-14T11:57:52Z,"  Personalization has become an essential capability in modern AI systems,
+enabling customized interactions that align with individual user preferences,
+contexts, and goals. Recent research has increasingly concentrated on
+Retrieval-Augmented Generation (RAG) frameworks and their evolution into more
+advanced agent-based architectures within personalized settings to enhance user
+satisfaction. Building on this foundation, this survey systematically examines
+personalization across the three core stages of RAG: pre-retrieval, retrieval,
+and generation. Beyond RAG, we further extend its capabilities into the realm
+of Personalized LLM-based Agents, which enhance traditional RAG systems with
+agentic functionalities, including user understanding, personalized planning
+and execution, and dynamic generation. For both personalization in RAG and
+agent-based personalization, we provide formal definitions, conduct a
+comprehensive review of recent literature, and summarize key datasets and
+evaluation metrics. Additionally, we discuss fundamental challenges,
+limitations, and promising research directions in this evolving field. Relevant
+papers and resources are continuously updated at
+https://github.com/Applied-Machine-Learning-Lab/Awesome-Personalized-RAG-Agent.
+",http://arxiv.org/abs/2504.10147v1
+"COUNTER: Cluster GCN based Energy Efficient Resource Management for
+  Sustainable Cloud Computing Environments","Han Wang, Sukhpal Singh Gill, Steve Uhlig",2025-04-14T08:58:34Z,"  Cloud computing, thanks to the pervasiveness of information technologies,
+provides a foundational environment for developing IT applications, offering
+organizations virtually unlimited and flexible computing resources on a
+pay-per-use basis. However, the large data centres where cloud computing
+services are hosted consume significant amounts of electricity annually due to
+Information and Communication Technology (ICT) components. This issue is
+exacerbated by the increasing deployment of large artificial intelligence (AI)
+models, which often rely on distributed data centres, thereby significantly
+impacting the global environment. This study proposes the COUNTER model,
+designed for sustainable cloud resource management. COUNTER is integrated with
+cluster graph neural networks and evaluated in a simulated cloud environment,
+aiming to reduce energy consumption while maintaining quality of service
+parameters. Experimental results demonstrate improvements in resource
+utilisation, energy consumption, and cost effectiveness compared to the
+baseline model, HUNTER, which employs a gated graph neural network aimed at
+achieving carbon neutrality in cloud computing for modern ICT systems.
+",http://arxiv.org/abs/2504.09995v1
+"Physical Scales Matter: The Role of Receptive Fields and Advection in
+  Satellite-Based Thunderstorm Nowcasting with Convolutional Neural Networks","Christoph Metzl, Kianusch Vahid Yousefnia, Richard Müller, Virginia Poli, Miria Celano, Tobias Bölle",2025-04-14T08:57:59Z,"  The focus of nowcasting development is transitioning from physically
+motivated advection methods to purely data-driven Machine Learning (ML)
+approaches. Nevertheless, recent work indicates that incorporating advection
+into the ML value chain has improved skill for radar-based precipitation
+nowcasts. However, the generality of this approach and the underlying causes
+remain unexplored. This study investigates the generality by probing the
+approach on satellite-based thunderstorm nowcasts for the first time. Resorting
+to a scale argument, we then put forth an explanation when and why skill
+improvements can be expected. In essence, advection guarantees that
+thunderstorm patterns relevant for nowcasting are contained in the receptive
+field at long lead times. To test our hypotheses, we train ResU-Nets solving
+segmentation tasks with lightning observations as ground truth. The input of
+the Baseline Neural Network (BNN) are short time series of multispectral
+satellite imagery and lightning observations, whereas the Advection-Informed
+Neural Network (AINN) additionally receives the Lagrangian persistence nowcast
+of all input channels at the desired lead time. Overall, we find only a minor
+skill improvement of the AINN over the BNN when considering fully averaged
+scores. However, assessing skill conditioned on lead time and wind speed, we
+demonstrate that our scale argument correctly predicts the onset of skill
+improvement of the AINN over the BNN after 2h lead time. We confirm that
+generally advection becomes gradually more important with longer lead times and
+higher wind speeds. Our work accentuates the importance of considering and
+incorporating the underlying physical scales when designing ML based
+forecasting models.
+",http://arxiv.org/abs/2504.09994v1
+Proofs of Useful Work from Arbitrary Matrix Multiplication,"Ilan Komargodski, Itamar Schen, Omri Weinstein",2025-04-14T08:22:40Z,"  We revisit the longstanding open problem of implementing Nakamoto's
+proof-of-work (PoW) consensus based on a real-world computational task $T(x)$
+(as opposed to artificial random hashing), in a truly permissionless setting
+where the miner itself chooses the input $x$. The challenge in designing such a
+Proof-of-Useful-Work (PoUW) protocol, is using the native computation of $T(x)$
+to produce a PoW certificate with prescribed hardness and with negligible
+computational overhead over the worst-case complexity of $T(\cdot)$ -- This
+ensures malicious miners cannot ``game the system"" by fooling the verifier to
+accept with higher probability compared to honest miners (while using similar
+computational resources). Indeed, obtaining a PoUW with $O(1)$-factor overhead
+is trivial for any task $T$, but also useless.
+  Our main result is a PoUW for the task of Matrix Multiplication $MatMul(A,B)$
+of arbitrary matrices with $1+o(1)$ multiplicative overhead compared to naive
+$MatMul$ (even in the presence of Fast Matrix Multiplication-style algorithms,
+which are currently impractical). We conjecture that our protocol has optimal
+security in the sense that a malicious prover cannot obtain any significant
+advantage over an honest prover. This conjecture is based on reducing hardness
+of our protocol to the task of solving a batch of low-rank random linear
+equations which is of independent interest.
+  Since $MatMul$s are the bottleneck of AI compute as well as countless
+industry-scale applications, this primitive suggests a concrete design of a new
+L1 base-layer protocol, which nearly eliminates the energy-waste of Bitcoin
+mining -- allowing GPU consumers to reduce their AI training and inference
+costs by ``re-using"" it for blockchain consensus, in exchange for block rewards
+(2-for-1). This blockchain is currently under construction.
+",http://arxiv.org/abs/2504.09971v1
+"TianQuan-Climate: A Subseasonal-to-Seasonal Global Weather Model via
+  Incorporate Climatology State","Guowen Li, Xintong Liu, Shilei Cao, Haoyuan Liang, Mengxuan Chen, Lixian Zhang, Jinxiao Zhang, Jiuke Wang, Meng Jin, Juepeng Zheng",2025-04-14T07:02:34Z,"  Subseasonal forecasting serves as an important support for Sustainable
+Development Goals (SDGs), such as climate challenges, agricultural yield and
+sustainable energy production. However, subseasonal forecasting is a complex
+task in meteorology due to dissipating initial conditions and delayed external
+forces. Although AI models are increasingly pushing the boundaries of this
+forecasting limit, they face two major challenges: error accumulation and
+Smoothness. To address these two challenges, we propose Climate Furnace
+Subseasonal-to-Seasonal (TianQuan-Climate), a novel machine learning model
+designed to provide global daily mean forecasts up to 45 days, covering five
+upper-air atmospheric variables at 13 pressure levels and two surface
+variables. Our proposed TianQuan-Climate has two advantages: 1) it utilizes a
+multi-model prediction strategy to reduce system error impacts in long-term
+subseasonal forecasts; 2) it incorporates a Content Fusion Module for
+climatological integration and extends ViT with uncertainty blocks (UD-ViT) to
+improve generalization by learning from uncertainty. We demonstrate the
+effectiveness of TianQuan-Climate on benchmarks for weather forecasting and
+climate projections within the 15 to 45-day range, where TianQuan-Climate
+outperforms existing numerical and AI methods.
+",http://arxiv.org/abs/2504.09940v1
+"Efficient Task-specific Conditional Diffusion Policies: Shortcut Model
+  Acceleration and SO(3) Optimization","Haiyong Yu, Yanqiong Jin, Yonghao He, Wei Sui",2025-04-14T06:37:22Z,"  Imitation learning, particularly Diffusion Policies based methods, has
+recently gained significant traction in embodied AI as a powerful approach to
+action policy generation. These models efficiently generate action policies by
+learning to predict noise. However, conventional Diffusion Policy methods rely
+on iterative denoising, leading to inefficient inference and slow response
+times, which hinder real-time robot control. To address these limitations, we
+propose a Classifier-Free Shortcut Diffusion Policy (CF-SDP) that integrates
+classifier-free guidance with shortcut-based acceleration, enabling efficient
+task-specific action generation while significantly improving inference speed.
+Furthermore, we extend diffusion modeling to the SO(3) manifold in shortcut
+model, defining the forward and reverse processes in its tangent space with an
+isotropic Gaussian distribution. This ensures stable and accurate rotational
+estimation, enhancing the effectiveness of diffusion-based control. Our
+approach achieves nearly 5x acceleration in diffusion inference compared to
+DDIM-based Diffusion Policy while maintaining task performance. Evaluations
+both on the RoboTwin simulation platform and real-world scenarios across
+various tasks demonstrate the superiority of our method.
+",http://arxiv.org/abs/2504.09927v1
+"StePO-Rec: Towards Personalized Outfit Styling Assistant via
+  Knowledge-Guided Multi-Step Reasoning","Yuxi Bi, Yunfan Gao, Haofen Wang",2025-04-14T06:24:56Z,"  Advancements in Generative AI offers new opportunities for FashionAI,
+surpassing traditional recommendation systems that often lack transparency and
+struggle to integrate expert knowledge, leaving the potential for personalized
+fashion styling remain untapped. To address these challenges, we present PAFA
+(Principle-Aware Fashion), a multi-granular knowledge base that organizes
+professional styling expertise into three levels of metadata, domain
+principles, and semantic relationships. Using PAFA, we develop StePO-Rec, a
+knowledge-guided method for multi-step outfit recommendation. StePO-Rec
+provides structured suggestions using a scenario-dimension-attribute framework,
+employing recursive tree construction to align recommendations with both
+professional principles and individual preferences. A preference-trend
+re-ranking system further adapts to fashion trends while maintaining the
+consistency of the user's original style. Experiments on the widely used
+personalized outfit dataset IQON show a 28% increase in Recall@1 and 32.8% in
+MAP. Furthermore, case studies highlight improved explainability, traceability,
+result reliability, and the seamless integration of expertise and
+personalization.
+",http://arxiv.org/abs/2504.09915v1
+"Labeling Messages as AI-Generated Does Not Reduce Their Persuasive
+  Effects","Isabel O. Gallegos, Chen Shani, Weiyan Shi, Federico Bianchi, Izzy Gainsburg, Dan Jurafsky, Robb Willer",2025-04-14T04:22:39Z,"  As generative artificial intelligence (AI) enables the creation and
+dissemination of information at massive scale and speed, it is increasingly
+important to understand how people perceive AI-generated content. One prominent
+policy proposal requires explicitly labeling AI-generated content to increase
+transparency and encourage critical thinking about the information, but prior
+research has not yet tested the effects of such labels. To address this gap, we
+conducted a survey experiment (N=1601) on a diverse sample of Americans,
+presenting participants with an AI-generated message about several public
+policies (e.g., allowing colleges to pay student-athletes), randomly assigning
+whether participants were told the message was generated by (a) an expert AI
+model, (b) a human policy expert, or (c) no label. We found that messages were
+generally persuasive, influencing participants' views of the policies by 9.74
+percentage points on average. However, while 94.6% of participants assigned to
+the AI and human label conditions believed the authorship labels, labels had no
+significant effects on participants' attitude change toward the policies,
+judgments of message accuracy, nor intentions to share the message with others.
+These patterns were robust across a variety of participant characteristics,
+including prior knowledge of the policy, prior experience with AI, political
+party, education level, or age. Taken together, these results imply that, while
+authorship labels would likely enhance transparency, they are unlikely to
+substantially affect the persuasiveness of the labeled content, highlighting
+the need for alternative strategies to address challenges posed by AI-generated
+information.
+",http://arxiv.org/abs/2504.09865v1
+"EthosGPT: Mapping Human Value Diversity to Advance Sustainable
+  Development Goals (SDGs)",Luyao Zhang,2025-04-14T04:14:13Z,"  Large language models (LLMs) are transforming global decision-making and
+societal systems by processing diverse data at unprecedented scales. However,
+their potential to homogenize human values poses critical risks, similar to
+biodiversity loss undermining ecological resilience. Rooted in the ancient
+Greek concept of ethos, meaning both individual character and the shared moral
+fabric of communities, EthosGPT draws on a tradition that spans from
+Aristotle's virtue ethics to Adam Smith's moral sentiments as the ethical
+foundation of economic cooperation. These traditions underscore the vital role
+of value diversity in fostering social trust, institutional legitimacy, and
+long-term prosperity. EthosGPT addresses the challenge of value homogenization
+by introducing an open-source framework for mapping and evaluating LLMs within
+a global scale of human values. Using international survey data on cultural
+indices, prompt-based assessments, and comparative statistical analyses,
+EthosGPT reveals both the adaptability and biases of LLMs across regions and
+cultures. It offers actionable insights for developing inclusive LLMs, such as
+diversifying training data and preserving endangered cultural heritage to
+ensure representation in AI systems. These contributions align with the United
+Nations Sustainable Development Goals (SDGs), especially SDG 10 (Reduced
+Inequalities), SDG 11.4 (Cultural Heritage Preservation), and SDG 16 (Peace,
+Justice and Strong Institutions). Through interdisciplinary collaboration,
+EthosGPT promotes AI systems that are both technically robust and ethically
+inclusive, advancing value plurality as a cornerstone for sustainable and
+equitable futures.
+",http://arxiv.org/abs/2504.09861v1
+"Working with Large Language Models to Enhance Messaging Effectiveness
+  for Vaccine Confidence","Lucinda Gullison, Feng Fu",2025-04-14T04:06:46Z,"  Vaccine hesitancy and misinformation are significant barriers to achieving
+widespread vaccination coverage. Smaller public health departments may lack the
+expertise or resources to craft effective vaccine messaging. This paper
+explores the potential of ChatGPT-augmented messaging to promote confidence in
+vaccination uptake.
+  We conducted a survey in which participants chose between pairs of
+vaccination messages and assessed which was more persuasive and to what extent.
+In each pair, one message was the original, and the other was augmented by
+ChatGPT. At the end of the survey, participants were informed that half of the
+messages had been generated by ChatGPT. They were then asked to provide both
+quantitative and qualitative responses regarding how knowledge of a message's
+ChatGPT origin affected their impressions.
+  Overall, ChatGPT-augmented messages were rated slightly higher than the
+original messages. These messages generally scored better when they were
+longer. Respondents did not express major concerns about ChatGPT-generated
+content, nor was there a significant relationship between participants' views
+on ChatGPT and their message ratings. Notably, there was a correlation between
+whether a message appeared first or second in a pair and its score.
+  These results point to the potential of ChatGPT to enhance vaccine messaging,
+suggesting a promising direction for future research on human-AI collaboration
+in public health communication.
+",http://arxiv.org/abs/2504.09857v1
+"CKMImageNet: A Dataset for AI-Based Channel Knowledge Map Towards
+  Environment-Aware Communication and Sensing","Zijian Wu, Di Wu, Shen Fu, Yuelong Qiu, Yong Zeng",2025-04-14T03:40:35Z,"  With the increasing demand for real-time channel state information (CSI) in
+sixth-generation (6G) mobile communication networks, channel knowledge map
+(CKM) emerges as a promising technique, offering a site-specific database that
+enables environment-awareness and significantly enhances communication and
+sensing performance by leveraging a priori wireless channel knowledge. However,
+efficient construction and utilization of CKMs require high-quality, massive,
+and location-specific channel knowledge data that accurately reflects the
+real-world environments. Inspired by the great success of ImageNet dataset in
+advancing computer vision and image understanding in artificial intelligence
+(AI) community, we introduce CKMImageNet, a dataset developed to bridge AI and
+environment-aware wireless communications and sensing by integrating
+location-specific channel knowledge data, high-fidelity environmental maps, and
+their visual representations. CKMImageNet supports a wide range of AI-driven
+approaches for CKM construction with spatially consistent and location-specific
+channel knowledge data, including both supervised and unsupervised, as well as
+discriminative and generative AI methods.
+",http://arxiv.org/abs/2504.09849v1
+"""All Roads Lead to ChatGPT"": How Generative AI is Eroding Social
+  Interactions and Student Learning Communities","Irene Hou, Owen Man, Kate Hamilton, Srishty Muthusekaran, Jeffin Johnykutty, Leili Zadeh, Stephen MacNeil",2025-04-14T00:40:58Z,"  The widespread adoption of generative AI is already impacting learning and
+help-seeking. While the benefits of generative AI are well-understood, recent
+studies have also raised concerns about increased potential for cheating and
+negative impacts on students' metacognition and critical thinking. However, the
+potential impacts on social interactions, peer learning, and classroom dynamics
+are not yet well understood. To investigate these aspects, we conducted 17
+semi-structured interviews with undergraduate computing students across seven
+R1 universities in North America. Our findings suggest that help-seeking
+requests are now often mediated by generative AI. For example, students often
+redirected questions from their peers to generative AI instead of providing
+assistance themselves, undermining peer interaction. Students also reported
+feeling increasingly isolated and demotivated as the social support systems
+they rely on begin to break down. These findings are concerning given the
+important role that social interactions play in students' learning and sense of
+belonging.
+",http://arxiv.org/abs/2504.09779v1
+Understanding and Optimizing Multi-Stage AI Inference Pipelines,"Abhimanyu Rajeshkumar Bambhaniya, Hanjiang Wu, Suvinay Subramanian, Sudarshan Srinivasan, Souvik Kundu, Amir Yazdanbakhsh, Midhilesh Elavazhagan, Madhu Kumar, Tushar Krishna",2025-04-14T00:29:49Z,"  The rapid evolution of Large Language Models (LLMs) has driven the need for
+increasingly sophisticated inference pipelines and hardware platforms. Modern
+LLM serving extends beyond traditional prefill-decode workflows, incorporating
+multi-stage processes such as Retrieval Augmented Generation (RAG), key-value
+(KV) cache retrieval, dynamic model routing, and multi step reasoning. These
+stages exhibit diverse computational demands, requiring distributed systems
+that integrate GPUs, ASICs, CPUs, and memory-centric architectures. However,
+existing simulators lack the fidelity to model these heterogeneous,
+multi-engine workflows, limiting their ability to inform architectural
+decisions.
+  To address this gap, we introduce HERMES, a Heterogeneous Multi-stage LLM
+inference Execution Simulator. HERMES models diverse request stages; including
+RAG, KV retrieval, reasoning, prefill, and decode across complex hardware
+hierarchies. HERMES supports heterogeneous clients executing multiple models
+concurrently unlike prior frameworks while incorporating advanced batching
+strategies and multi-level memory hierarchies. By integrating real hardware
+traces with analytical modeling, HERMES captures critical trade-offs such as
+memory bandwidth contention, inter-cluster communication latency, and batching
+efficiency in hybrid CPU-accelerator deployments. Through case studies, we
+explore the impact of reasoning stages on end-to-end latency, optimal batching
+strategies for hybrid pipelines, and the architectural implications of remote
+KV cache retrieval. HERMES empowers system designers to navigate the evolving
+landscape of LLM inference, providing actionable insights into optimizing
+hardware-software co-design for next-generation AI workloads.
+",http://arxiv.org/abs/2504.09775v1
+Integrating Large Language Models for Automated Structural Analysis,"Haoran Liang, Mohammad Talebi Kalaleh, Qipei Mei",2025-04-13T23:10:33Z,"  Automated analysis for engineering structures offers considerable potential
+for boosting efficiency by minimizing repetitive tasks. Although AI-driven
+methods are increasingly common, no systematic framework yet leverages Large
+Language Models (LLMs) for automatic structural analysis. To address this gap,
+we propose a novel framework that integrates LLMs with structural analysis
+software. LLMs serve as the core engine: they parse structural descriptions
+from text and translate them into executable Python scripts. Moreover, the
+framework integrates the generative capabilities of LLMs with code-based finite
+element (FE) tools like OpenSeesPy. It employs domain-specific prompt design
+and in-context learning strategies to enhance the LLM's problem-solving
+capabilities and generative stability, enabling fully automated structural
+analysis from descriptive text to model outputs. In our experiments, we
+introduce a well-curated small-scale benchmark dataset of 20 structural
+analysis word problems (SAWPs) with ground-truth solutions and evaluate the
+performance of different LLMs within our framework in solving these SAWPs. The
+role of system instructions, crafted by structural engineers, is also
+investigated to understand their impact on LLM-driven structural analysis.
+Additionally, the generative stability of our framework is examined. Through
+multiple validation experiments on the benchmark, our results demonstrate that
+the proposed framework can substantially increase the level of automation in
+solving SAWPs compared to traditional methods. Quantitatively, the framework,
+built on GPT-4o, achieved 100% accuracy, surpassing GPT-4 (85%), Gemini 1.5 Pro
+(80%), and Llama-3.3 (30%) on the test examples. Furthermore, integrating
+domain-specific instructions enhanced performance by 30% on problems with
+asymmetrical structural configurations.
+",http://arxiv.org/abs/2504.09754v1
+"Can LLM feedback enhance review quality? A randomized study of 20K
+  reviews at ICLR 2025","Nitya Thakkar, Mert Yuksekgonul, Jake Silberg, Animesh Garg, Nanyun Peng, Fei Sha, Rose Yu, Carl Vondrick, James Zou",2025-04-13T22:01:25Z,"  Peer review at AI conferences is stressed by rapidly rising submission
+volumes, leading to deteriorating review quality and increased author
+dissatisfaction. To address these issues, we developed Review Feedback Agent, a
+system leveraging multiple large language models (LLMs) to improve review
+clarity and actionability by providing automated feedback on vague comments,
+content misunderstandings, and unprofessional remarks to reviewers. Implemented
+at ICLR 2025 as a large randomized control study, our system provided optional
+feedback to more than 20,000 randomly selected reviews. To ensure high-quality
+feedback for reviewers at this scale, we also developed a suite of automated
+reliability tests powered by LLMs that acted as guardrails to ensure feedback
+quality, with feedback only being sent to reviewers if it passed all the tests.
+The results show that 27% of reviewers who received feedback updated their
+reviews, and over 12,000 feedback suggestions from the agent were incorporated
+by those reviewers. This suggests that many reviewers found the AI-generated
+feedback sufficiently helpful to merit updating their reviews. Incorporating AI
+feedback led to significantly longer reviews (an average increase of 80 words
+among those who updated after receiving feedback) and more informative reviews,
+as evaluated by blinded researchers. Moreover, reviewers who were selected to
+receive AI feedback were also more engaged during paper rebuttals, as seen in
+longer author-reviewer discussions. This work demonstrates that carefully
+designed LLM-generated review feedback can enhance peer review quality by
+making reviews more specific and actionable while increasing engagement between
+reviewers and authors. The Review Feedback Agent is publicly available at
+https://github.com/zou-group/review_feedback_agent.
+",http://arxiv.org/abs/2504.09737v1
+Agentic Workflows for Economic Research: Design and Implementation,"Herbert Dawid, Philipp Harting, Hankui Wang, Zhongli Wang, Jiachen Yi",2025-04-13T21:54:47Z,"  This paper introduces a methodology based on agentic workflows for economic
+research that leverages Large Language Models (LLMs) and multimodal AI to
+enhance research efficiency and reproducibility. Our approach features
+autonomous and iterative processes covering the entire research lifecycle--from
+ideation and literature review to economic modeling and data processing,
+empirical analysis and result interpretation--with strategic human oversight.
+The workflow architecture comprises specialized agents with clearly defined
+roles, structured inter-agent communication protocols, systematic error
+escalation pathways, and adaptive mechanisms that respond to changing research
+demand. Human-in-the-loop (HITL) checkpoints are strategically integrated to
+ensure methodological validity and ethical compliance. We demonstrate the
+practical implementation of our framework using Microsoft's open-source
+platform, AutoGen, presenting experimental examples that highlight both the
+current capabilities and future potential of agentic workflows in improving
+economic research.
+",http://arxiv.org/abs/2504.09736v1
+A Survey on Efficient Vision-Language Models,"Gaurav Shinde, Anuradha Ravi, Emon Dey, Shadman Sakib, Milind Rampure, Nirmalya Roy",2025-04-13T21:12:24Z,"  Vision-language models (VLMs) integrate visual and textual information,
+enabling a wide range of applications such as image captioning and visual
+question answering, making them crucial for modern AI systems. However, their
+high computational demands pose challenges for real-time applications. This has
+led to a growing focus on developing efficient vision language models. In this
+survey, we review key techniques for optimizing VLMs on edge and
+resource-constrained devices. We also explore compact VLM architectures,
+frameworks and provide detailed insights into the performance-memory trade-offs
+of efficient VLMs. Furthermore, we establish a GitHub repository at
+https://github.com/MPSCUMBC/Efficient-Vision-Language-Models-A-Survey to
+compile all surveyed papers, which we will actively update. Our objective is to
+foster deeper research in this area.
+",http://arxiv.org/abs/2504.09724v1
+"NotebookLM: An LLM with RAG for active learning and collaborative
+  tutoring",Eugenio Tufino,2025-04-13T21:01:21Z,"  This study explores NotebookLM, a Google Gemini powered AI platform that
+integrates Retrieval Augmented Generation (RAG), as a collaborative physics
+tutor, an area of research that is developing quickly. In our implementation,
+NotebookLM was configured as an AI physics collaborative tutor to support
+students in solving conceptually oriented physics problems using a
+collaborative, Socratic approach. When deployed as a collaborative tutor, the
+system restricts student interaction to a chat only interface, promoting
+controlled and guided engagement. By grounding its responses in teacher
+provided source documents, NotebookLM helps mitigate one of the major
+shortcomings of standard large language models--hallucinations--thereby
+ensuring more traceable and reliable answers. Our experiments demonstrate
+NotebookLM's potential as a low cost, easily implemented RAG based tool for
+personalized and traceable AI assisted physics learning in diverse educational
+settings. Furthermore, NotebookLM also functions as a valuable study tool for
+both teachers and students by generating targeted questions, study guides, and
+supplementary materials that enhance both classroom instruction and independent
+research. While limitations remain, particularly regarding legal restrictions,
+the current text only mode of interaction, and the intrinsic reliability
+challenges of statistical models, this work presents a promising example of a
+grounded AI application in physics education.
+",http://arxiv.org/abs/2504.09720v1
+The Structural Safety Generalization Problem,"Julius Broomfield, Tom Gibbs, Ethan Kosak-Hine, George Ingebretsen, Tia Nasir, Jason Zhang, Reihaneh Iranmanesh, Sara Pieri, Reihaneh Rabbany, Kellin Pelrine",2025-04-13T20:21:08Z,"  LLM jailbreaks are a widespread safety challenge. Given this problem has not
+yet been tractable, we suggest targeting a key failure mechanism: the failure
+of safety to generalize across semantically equivalent inputs. We further focus
+the target by requiring desirable tractability properties of attacks to study:
+explainability, transferability between models, and transferability between
+goals. We perform red-teaming within this framework by uncovering new
+vulnerabilities to multi-turn, multi-image, and translation-based attacks.
+These attacks are semantically equivalent by our design to their single-turn,
+single-image, or untranslated counterparts, enabling systematic comparisons; we
+show that the different structures yield different safety outcomes. We then
+demonstrate the potential for this framework to enable new defenses by
+proposing a Structure Rewriting Guardrail, which converts an input to a
+structure more conducive to safety assessment. This guardrail significantly
+improves refusal of harmful inputs, without over-refusing benign ones. Thus, by
+framing this intermediate challenge - more tractable than universal defenses
+but essential for long-term safety - we highlight a critical milestone for AI
+safety research.
+",http://arxiv.org/abs/2504.09712v1
+"MLRC-Bench: Can Language Agents Solve Machine Learning Research
+  Challenges?","Yunxiang Zhang, Muhammad Khalifa, Shitanshu Bhushan, Grant D Murphy, Lajanugen Logeswaran, Jaekyeom Kim, Moontae Lee, Honglak Lee, Lu Wang",2025-04-13T19:35:43Z,"  Existing evaluation of large language model (LLM) agents on scientific
+discovery lacks objective baselines and metrics to assess the viability of
+their proposed methods. To address this issue, we introduce MLRC-Bench, a
+benchmark designed to quantify how effectively language agents can tackle
+challenging Machine Learning (ML) Research Competitions. Our benchmark
+highlights open research problems that demand novel methodologies, in contrast
+to recent benchmarks such as OpenAI's MLE-Bench (Chan et al., 2024) and METR's
+RE-Bench (Wijk et al., 2024), which focus on well-established research tasks
+that are largely solvable through sufficient engineering effort. Unlike prior
+work, e.g., AI Scientist (Lu et al., 2024b), which evaluates the end-to-end
+agentic pipeline by using LLM-as-a-judge, MLRC-Bench measures the key steps of
+proposing and implementing novel research methods and evaluates them with newly
+proposed rigorous protocol and objective metrics. Our curated suite of 7
+competition tasks reveals significant challenges for LLM agents. Even the
+best-performing tested agent (gemini-exp-1206 under MLAB (Huang et al., 2024a))
+closes only 9.3% of the gap between baseline and top human participant scores.
+Furthermore, our analysis reveals a misalignment between the LLM-judged
+innovation and their actual performance on cutting-edge ML research problems.
+MLRC-Bench is a dynamic benchmark, which is designed to continually grow with
+new ML competitions to encourage rigorous and objective evaluations of AI's
+research capabilities.
+",http://arxiv.org/abs/2504.09702v1
+"SPICE: A Synergistic, Precise, Iterative, and Customizable Image Editing
+  Workflow","Kenan Tang, Yanhong Li, Yao Qin",2025-04-13T19:13:04Z,"  Recent prompt-based image editing models have demonstrated impressive
+prompt-following capability at structural editing tasks. However, existing
+models still fail to perform local edits, follow detailed editing prompts, or
+maintain global image quality beyond a single editing step. To address these
+challenges, we introduce SPICE, a training-free workflow that accepts arbitrary
+resolutions and aspect ratios, accurately follows user requirements, and
+improves image quality consistently during more than 100 editing steps. By
+synergizing the strengths of a base diffusion model and a Canny edge ControlNet
+model, SPICE robustly handles free-form editing instructions from the user.
+SPICE outperforms state-of-the-art baselines on a challenging realistic
+image-editing dataset consisting of semantic editing (object addition, removal,
+replacement, and background change), stylistic editing (texture changes), and
+structural editing (action change) tasks. Not only does SPICE achieve the
+highest quantitative performance according to standard evaluation metrics, but
+it is also consistently preferred by users over existing image-editing methods.
+We release the workflow implementation for popular diffusion model Web UIs to
+support further research and artistic exploration.
+",http://arxiv.org/abs/2504.09697v1
+"EmoAgent: Assessing and Safeguarding Human-AI Interaction for Mental
+  Health Safety","Jiahao Qiu, Yinghui He, Xinzhe Juan, Yiming Wang, Yuhan Liu, Zixin Yao, Yue Wu, Xun Jiang, Ling Yang, Mengdi Wang",2025-04-13T18:47:22Z,"  The rise of LLM-driven AI characters raises safety concerns, particularly for
+vulnerable human users with psychological disorders. To address these risks, we
+propose EmoAgent, a multi-agent AI framework designed to evaluate and mitigate
+mental health hazards in human-AI interactions. EmoAgent comprises two
+components: EmoEval simulates virtual users, including those portraying
+mentally vulnerable individuals, to assess mental health changes before and
+after interactions with AI characters. It uses clinically proven psychological
+and psychiatric assessment tools (PHQ-9, PDI, PANSS) to evaluate mental risks
+induced by LLM. EmoGuard serves as an intermediary, monitoring users' mental
+status, predicting potential harm, and providing corrective feedback to
+mitigate risks. Experiments conducted in popular character-based chatbots show
+that emotionally engaging dialogues can lead to psychological deterioration in
+vulnerable users, with mental state deterioration in more than 34.4% of the
+simulations. EmoGuard significantly reduces these deterioration rates,
+underscoring its role in ensuring safer AI-human interactions. Our code is
+available at: https://github.com/1akaman/EmoAgent
+",http://arxiv.org/abs/2504.09689v1
+"GAMA: High-Performance \underline{G}EMM \underline{A}cceleration on AMD
+  Versal \underline{M}L-Optimized \underline{A}I Engines","Kaustubh Mhatre, Endri Taka, Aman Arora",2025-04-13T18:44:22Z,"  General matrix-matrix multiplication (GEMM) is a fundamental operation in
+machine learning (ML) applications. We present the first comprehensive
+performance acceleration of GEMM workloads on AMD's second-generation AIE-ML
+(AIE2) architecture, which is specifically optimized for ML applications.
+Compared to AI-Engine (AIE1), AIE offers increased compute throughput and
+larger on-chip memory capacity. We propose a novel design that maximizes AIE
+memory utilization, incorporates custom buffer placement within the AIE2 and
+staggered kernel placement across the AIE2 array, significantly reducing
+performance bottlenecks such as memory stalls and routing congestion, resulting
+in improved performance and efficiency compared to the default compiler
+provided by AMD. We evaluate the performance benefits of our design at three
+levels: single AIE, pack of AIEs and the complete AIE array. GAMA achieves
+state-of-the-art performance, delivering up to 165 TOPS (85% of peak) for int8
+precision and 83 TBFLOPS (86% of peak) for bfloat16 precision GEMM workloads.
+Our solution achieves 8.7%, 9%, 39% and 53.6% higher peak throughput efficiency
+compared to the state-of-the-art AIE1 frameworks AMA, MAXEVA, ARIES and CHARM,
+respectively.
+",http://arxiv.org/abs/2504.09688v1
+"AgentDynEx: Nudging the Mechanics and Dynamics of Multi-Agent
+  Simulations","Jenny Ma, Riya Sahni, Karthik Sreedhar, Lydia B. Chilton",2025-04-13T17:26:35Z,"  Multi-agent large language model simulations have the potential to model
+complex human behaviors and interactions. If the mechanics are set up properly,
+unanticipated and valuable social dynamics can surface. However, it is
+challenging to consistently enforce simulation mechanics while still allowing
+for notable and emergent dynamics. We present AgentDynEx, an AI system that
+helps set up simulations from user-specified mechanics and dynamics. AgentDynEx
+uses LLMs to guide users through a Configuration Matrix to identify core
+mechanics and define milestones to track dynamics. It also introduces a method
+called \textit{nudging}, where the system dynamically reflects on simulation
+progress and gently intervenes if it begins to deviate from intended outcomes.
+A technical evaluation found that nudging enables simulations to have more
+complex mechanics and maintain its notable dynamics compared to simulations
+without nudging. We discuss the importance of nudging as a technique for
+balancing mechanics and dynamics of multi-agent simulations.
+",http://arxiv.org/abs/2504.09662v1
+"Building AI Service Repositories for On-Demand Service Orchestration in
+  6G AI-RAN","Yun Tang, Mengbang Zou, Udhaya Chandhar Srinivasan, Obumneme Umealor, Dennis Kevogo, Benjamin James Scott, Weisi Guo",2025-04-13T16:40:58Z,"  Efficient orchestration of AI services in 6G AI-RAN requires well-structured,
+ready-to-deploy AI service repositories combined with orchestration methods
+adaptive to diverse runtime contexts across radio access, edge, and cloud
+layers. Current literature lacks comprehensive frameworks for constructing such
+repositories and generally overlooks key practical orchestration factors. This
+paper systematically identifies and categorizes critical attributes influencing
+AI service orchestration in 6G networks and introduces an open-source,
+LLM-assisted toolchain that automates service packaging, deployment, and
+runtime profiling. We validate the proposed toolchain through the Cranfield AI
+Service repository case study, demonstrating significant automation benefits,
+reduced manual coding efforts, and the necessity of infrastructure-specific
+profiling, paving the way for more practical orchestration frameworks.
+",http://arxiv.org/abs/2504.09647v1
+ControlNET: A Firewall for RAG-based LLM System,"Hongwei Yao, Haoran Shi, Yidou Chen, Yixin Jiang, Cong Wang, Zhan Qin, Kui Ren, Chun Chen",2025-04-13T14:18:35Z,"  Retrieval-Augmented Generation (RAG) has significantly enhanced the factual
+accuracy and domain adaptability of Large Language Models (LLMs). This
+advancement has enabled their widespread deployment across sensitive domains
+such as healthcare, finance, and enterprise applications. RAG mitigates
+hallucinations by integrating external knowledge, yet introduces privacy risk
+and security risk, notably data breaching risk and data poisoning risk. While
+recent studies have explored prompt injection and poisoning attacks, there
+remains a significant gap in comprehensive research on controlling inbound and
+outbound query flows to mitigate these threats. In this paper, we propose an AI
+firewall, ControlNET, designed to safeguard RAG-based LLM systems from these
+vulnerabilities. ControlNET controls query flows by leveraging activation shift
+phenomena to detect adversarial queries and mitigate their impact through
+semantic divergence. We conduct comprehensive experiments on four different
+benchmark datasets including Msmarco, HotpotQA, FinQA, and MedicalSys using
+state-of-the-art open source LLMs (Llama3, Vicuna, and Mistral). Our results
+demonstrate that ControlNET achieves over 0.909 AUROC in detecting and
+mitigating security threats while preserving system harmlessness. Overall,
+ControlNET offers an effective, robust, harmless defense mechanism, marking a
+significant advancement toward the secure deployment of RAG-based LLM systems.
+",http://arxiv.org/abs/2504.09593v1
+"GeoNav: Empowering MLLMs with Explicit Geospatial Reasoning Abilities
+  for Language-Goal Aerial Navigation","Haotian Xu, Yue Hu, Chen Gao, Zhengqiu Zhu, Yong Zhao, Yong Li, Quanjun Yin",2025-04-13T14:12:42Z,"  Language-goal aerial navigation is a critical challenge in embodied AI,
+requiring UAVs to localize targets in complex environments such as urban blocks
+based on textual specification. Existing methods, often adapted from indoor
+navigation, struggle to scale due to limited field of view, semantic ambiguity
+among objects, and lack of structured spatial reasoning. In this work, we
+propose GeoNav, a geospatially aware multimodal agent to enable long-range
+navigation. GeoNav operates in three phases-landmark navigation, target search,
+and precise localization-mimicking human coarse-to-fine spatial strategies. To
+support such reasoning, it dynamically builds two different types of spatial
+memory. The first is a global but schematic cognitive map, which fuses prior
+textual geographic knowledge and embodied visual cues into a top-down,
+annotated form for fast navigation to the landmark region. The second is a
+local but delicate scene graph representing hierarchical spatial relationships
+between blocks, landmarks, and objects, which is used for definite target
+localization. On top of this structured representation, GeoNav employs a
+spatially aware, multimodal chain-of-thought prompting mechanism to enable
+multimodal large language models with efficient and interpretable
+decision-making across stages. On the CityNav urban navigation benchmark,
+GeoNav surpasses the current state-of-the-art by up to 12.53% in success rate
+and significantly improves navigation efficiency, even in hard-level tasks.
+Ablation studies highlight the importance of each module, showcasing how
+geospatial representations and coarse-to-fine reasoning enhance UAV navigation.
+",http://arxiv.org/abs/2504.09587v1
+"Extending Behavioral Software Engineering: Decision-Making and
+  Collaboration in Human-AI Teams for Responsible Software Engineering",Lekshmi Murali Rani,2025-04-13T09:40:25Z,"  The study of behavioral and social dimensions of software engineering (SE)
+tasks characterizes behavioral software engineering (BSE);however, the
+increasing significance of human-AI collaboration (HAIC) brings new directions
+in BSE by presenting new challenges and opportunities.This PhD research focuses
+on decision-making (DM) for SE tasks and collaboration within human-AI teams,
+aiming to promote responsible software engineering through a cognitive
+partnership between humans and AI.The goal of the research is to identify the
+challenges and nuances in HAIC from a cognitive perspective, design and
+optimize collaboration/partnership (human-AI team) that enhance collective
+intelligence and promote better, responsible DM in SE through human-centered
+approaches. The research addresses HAIC and its impact on individual, team, and
+organizational level aspects of BSE.
+",http://arxiv.org/abs/2504.09496v1
